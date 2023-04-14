@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Shuyi's webapage for CSE135 A1</title>
+        <link rel="icon" type="image/x-icon" href="favico/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            body {
+                background-color: black;
+                background-size: cover;
+            }
+
+            h2 {
+                padding: 20px 10px;
+                text-align: center;
+                color: white;
+            }
+
+
+            .Intro {
+                float: right;
+                padding: 21px;
+                width: 70%;
+
+            }
+
+            .Project {
+                color: white;
+                padding: 0px 20px;
+                float: right;
+                width: 60%;
+                background-color: white;
+
+            }
+
+            .Intro,
+            .Project {
+                color: white;
+                background-image: url("images/background.png");
+                background-size: cover;
+                border-radius: 10px;
+            }
+
+            .redirect {
+                font-size: 18px;
+                color: white;
+                margin-left: 20px;
+
+            }
+
+
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+
+    </head>
+
+
+    <body>
+
+        <a href="#Contact" class="redirect">Contact </a>
+
+
+
+        <div class="header">
+            <h2>Hi! I am <span style="color: rgb(10, 153, 125);">Shuyi Han</span>, a potential SWE and CS educator.</h2>
+        </div>
+
+        <hr>
+        <section>
+            <div class="Intro">
+                <p>Currently a undergrad student at <strong> UCSD </strong>, persuing degrees
+                    in <strong>Cognitive Science and Computer Science </strong>. I am interested in <strong>CS,
+                        education,
+                        hoping to
+                        teach CS and develope computing environments that facilitate learning in the future </strong>.
+                    Right
+                    now, I am developing projects alongside with my classes and working on the outside of class ones.
+                </p>
+            </div>
+            <p>
+                <img src="images/profile.JPG" alt="profile"
+                    style="width: 130px; height: 250px; border: 2px solid black;margin-left: 100px;">
+            </p>
+        </section>
+
+        <hr>
+
+
+
+        <section>
+            <div class="Project">
+                <p style="font-size:30px">&#128187; Projects</p>
+
+
+
+                <h3>TikTok-like Short Video App</h3>
+                <h5>in developing progress</h5>
+                <img src="images/Demo1.png" alt="project files overview" style="width:200px;height:300px;">
+
+                <p>Overview of files in project</p>
+                <p>Short video is a very popular field in recent years, and many companies are expanding their business
+                    in this direction. Therefore, I try to build a TikTok-like short video project. I started from
+                    sratch and am using the new version of SpringBoot technology combined with Uniapp to do this
+                    project. At present, I have completed the JavaWeb project independently, installed and configured
+                    various middleware, integrated the project and middleware, put the project on the cloud, deployed
+                    and made it online, and learned some enterprise-level coding specifications.</p>
+                <h5>Coverage of technology stacks</h5>
+
+                <ol>
+                    <li>Springboot</li>
+                    <li>Distributed Middleware</li>
+                    <li>Nginx</li>
+                    <li>Nacos</li>
+                    <li>Extended Components</li>
+                    <li>Cloud Expansion</li>
+                    <li>Front-End technology: UniApp & UniCloud</li>
+                </ol>
+                <br>
+                <h3>Mock E-book System</h3>
+                <h5>in developing progress</h5>
+                <div>
+                    <img src="images/Demo.png" alt="project overview" style="width:400px;height:300px;">
+
+                    <div id="cont"></div>
+
+                    <script>
+                        const container = document.getElementById("cont");
+                        const button = document.createElement("button");
+                        button.innerText = "See the Project Demo";
+                        button.classList.add("green-button");
+                        button.addEventListener("click", function () {
+                            window.location.href = "http://wiki.courseimooc.com";
+                        });
+                        container.appendChild(button);
+                    </script>
+                    <style>
+                        .green-button {
+                            float: right;
+                            background-color: rgb(10, 153, 125);
+                            color: white;
+                            border-radius: 10%;
+                            padding: 10px;
+                            font-size: 14px;
+                            margin-right: 300px;
+                        }
+                    </style>
+                </div>
+                <p>Overview of files in project</p>
+                <p>After learning Spring Boot + Vue family bucket full stack skills, I intend to make a knowledge base
+                    project with a simple interface and various functions, and E-book is a good choice that fits the
+                    requirements. My plan is to make a set of general component tools (which can be applied to other
+                    projects) and master the front-end and back-end separation development model. Then, I can get my own
+                    knowledge base system with flexible and extendable structure. At present, I have made a preliminary
+                    design for my project, including page design, interface design, infinite tree design, and graphic
+                    report design; I have now completed the construction of the back-end Spring Boot project, e-book
+                    management back-end interface, construction of front-end Vue CLI&Ant Design Vue project. Parts of
+                    Front and back-end of project management, interactive integration, development, production,
+                    packaging and release are still being developed.</p>
+
+                <h5>Coverage of technology stacks</h5>
+
+                <ol>
+                    <li>Sprint Boot</li>
+                    <li>Vue</li>
+                    <li>Any Design Vue</li>
+                </ol>
+            </div>
+
+            <div style=" color:white;">
+                <p style="font-size:30px">&#128218; Related Classes</p>
+                <h3>CS</h3>
+                <div class="CSlist">
+                    <ul>
+                        <li>CSE 12 Basic Data Struc & OO Design</li>
+                        <li>CSE 15L Software Tools&Techniques Lab</li>
+                        <li>CSE 20 Discrete Mathmetics</li>
+                        <li>CSE 21 Math/Algorithm&System Analys</li>
+                        <li>CSE 30 Computer Organiz&Systms Progrm</li>
+                        <li>CSE 100 Advancaed Data Structures</li>
+                        <li>COGS 108 Data Science in Practice</li>
+                        <li>CSE 110 Software Engineering</li>
+                        <li>CSE 135 Online Database Analys&Application</li>
+                    </ul>
+                </div>
+
+                <h3>Education & Cogs</h3>
+                <div class="Otherlist">
+                    <ul>
+                        <li>COGS 120 Interaction Design</li>
+                        <li>COGS 123 Social Computing</li>
+                        <li>EDS 124AR Teaching Computation in the Digital World</li>
+                        <li>EDS 124BR Teaching Computational thinking to everyone</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <footer id='Contact' style="color:white;">
+            <p>&copy; 2023 Shuyi Han's. All rights reserved.</p>
+            <p>Contact: shh020@ucsd.edu</p>
+        </footer>
+
+
+    </body>
+
+</html>
